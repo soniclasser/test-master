@@ -1,0 +1,13 @@
+span {
+  color: gray;
+  font-size: small;
+}
+
+.codeDiv {
+  background-color: whitesmoke;
+  padding: 10px;
+  color: blueviolet;
+  border-top: 1px dotted black;
+  border-bottom: 1px dotted black;
+  margin: 10px 0;
+}

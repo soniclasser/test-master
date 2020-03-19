@@ -1,0 +1,110 @@
+[
+  {
+    "id": "96D8E1D9EC4E03C1E053231A800F8E15",
+    "format": "###",
+    "formatDisplay": "###",
+    "type": 3
+  },
+  {
+    "id": "96D8E1D9EC4C03C1E053231A800F8E15",
+    "format": "###0.00",
+    "formatDisplay": "####.##",
+    "type": 3
+  },
+  {
+    "id": "96D8E1D9EC5903C1E053231A800F8E15",
+    "format": "###.#",
+    "formatDisplay": "###.#",
+    "type": 3
+  },
+  {
+    "id": "96D8E1D9EC5503C1E053231A800F8E15",
+    "format": "#,###.00",
+    "formatDisplay": "#,###.00",
+    "type": 3
+  },
+  {
+    "id": "96D8E1D9EC4B03C1E053231A800F8E15",
+    "format": "$ #,### MN",
+    "formatDisplay": "$ #,### MN",
+    "type": 3
+  },
+  {
+    "id": "96D8E1D9EC5603C1E053231A800F8E15",
+    "format": "$ #,###.00",
+    "formatDisplay": "$ #,###.##",
+    "type": 3
+  },
+  {
+    "id": "96D8E1D9EC4A03C1E053231A800F8E15",
+    "format": "$ #,###.## MN",
+    "formatDisplay": "$ #,###.## MN",
+    "type": 3
+  },
+  {
+    "id": "96D8E1D9EC5803C1E053231A800F8E15",
+    "format": "$ #,##0.00 MN",
+    "formatDisplay": "$ #,##0.00 MN",
+    "type": 3
+  },
+  {
+    "id": "96D8E1D9EC4F03C1E053231A800F8E15",
+    "format": "d(?=(?:D*d){4})",
+    "formatDisplay": "***1234",
+    "type": 1
+  },
+  {
+    "id": "96D8E1D9EC4D03C1E053231A800F8E15",
+    "format": "h:mm",
+    "formatDisplay": "12:08",
+    "type": 2
+  },
+  {
+    "id": "96D8E1D9EC5303C1E053231A800F8E15",
+    "format": "HH:mm:ss",
+    "formatDisplay": "HH:mm:ss",
+    "type": 2
+  },
+  {
+    "id": "96D8E1D9EC5703C1E053231A800F8E15",
+    "format": "(?<=.{3}).(?=[^@]*?@)(?=[^@\n]*?[^@\n]@)|(?:(?<=@.)|(?!^)G(?=[^@\n]*$)).(?=.*[^@\n].)",
+    "formatDisplay": "cor**************o@l******m.mx",
+    "type": 1
+  },
+  {
+    "id": "96D8E1D9EC5103C1E053231A800F8E15",
+    "format": "dd-MM-YYYY",
+    "formatDisplay": "dd-MM-YYYY",
+    "type": 2
+  },
+  {
+    "id": "96D8E1D9EC4903C1E053231A800F8E15",
+    "format": "dd/MMMMM/yyyy",
+    "formatDisplay": "dd/MMMMM/yyyy",
+    "type": 2
+  },
+  {
+    "id": "96D8E1D9EC5003C1E053231A800F8E15",
+    "format": "yyyy-MM-dd",
+    "formatDisplay": "yyyy-MM-dd",
+    "type": 2
+  },
+  {
+    "id": "96D8E1D9EC5203C1E053231A800F8E15",
+    "format": "yyyy-MM-dd HH:mm:ss",
+    "formatDisplay": "yyyy-MM-dd HH:mm:ss",
+    "type": 2
+  },
+  {
+    "id": "96D8E1D9EC5403C1E053231A800F8E15",
+    "format": "yyyy-MM-dd HH:mm:ss.SSS",
+    "formatDisplay": "yyyy-MM-dd HH:mm:ss.SSS",
+    "type": 2
+  },
+  {
+    "id": "96D8E1D9EC5A03C1E053231A800F8E15",
+    "format": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+    "formatDisplay": "yyyy-MM-dd'T'HH:mm:ss.SSSXXX",
+    "type": 2
+  }
+]

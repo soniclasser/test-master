@@ -1,0 +1,47 @@
+<h4>Instrucciones:</h4>
+<ol>
+  <li>
+    Crear un servicio que se encargue de hacer peticiones GET
+  </li>
+  <li>
+    Crear componente (customSelect) al que se le pasará información
+  </li>
+  <li>
+    Hacer petición GET a través de servicio creado:
+    <span>./assets/window.json</span>
+    <div class="codeDiv">
+      <code [innerHTML]="windowI | htmlCode"> </code>
+    </div>
+  </li>
+  <li>
+    Usar atributo style de elemento con type = select de array controls como
+    estilo de un select dentro del componente creado (customSelect)
+  </li>
+  <li>
+    Hacer petición GET a través de servicio creado:
+    <span>./assets/formats.json</span>
+    <div class="codeDiv">
+      <code [innerHTML]="formats | htmlCode"> </code>
+    </div>
+  </li>
+  <li>
+    Llenar select de customSelect con array de formatos, mostrando sólo aquellas
+    cuyo atributo "type" sea igual a 1
+  </li>
+  <li>
+    Crear una forma dentro de customSelect (de preferencia usar reactive forms)
+    que se llene con los campos del objeto seleccionado [id, format,
+    formatDisplay, type]
+  </li>
+  <li>
+    Permitir modificar solamente campo formatDisplay (los demás campos deben
+    permanecer inhabilitados)
+  </li>
+  <li>
+    Crear botón que permanezca inhabilitado hasta que se modifique el valor de
+    formatDisplay y que capture los valores de la forma una vez sea habilitado
+  </li>
+  <li>Mostrar valores de la forma</li>
+</ol>
+
+<app-custom-select></app-custom-select>

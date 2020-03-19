@@ -1,0 +1,27 @@
+<select
+  *ngIf="styleSelect"
+  [ngStyle]="{style: styleSelect.attributes.style}"
+  (change)="onChange($event.target.value)"
+>
+<option *ngFor="let option of options;let i = index" [value]="i">{{ option.formatDisplay}}</option>
+
+</select>
+
+
+<div style="text-align:center">
+  <form novalidate [formGroup]="formGroup">
+    id: <input type="text" formControlName="id" disabled>
+    format: <input type="text" formControlName="format" disabled>
+    formatDisplay: <input type="text" formControlName="formatDisplay">
+    type: <input type="text" formControlName="type"disabled>
+    <button [disabled]="!formGroup.dirty" (click)="showResul()">Modificar
+    </button>
+
+  </form>
+</div>
+<div *ngIf="show">
+  id:{{ select.id }}
+  format:{{ select.format }}
+  formatDisplay:{{ select.formatDisplay }}
+  type:{{ select.type }}
+</div>
